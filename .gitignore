@@ -5,6 +5,7 @@
 .php_cs.cache
 /.env
 /composer.phar
+composer.lock
 
 /app/bootstrap*
 /app/tests.bootstrap*
@@ -58,14 +59,12 @@
 !/media/images/.htaccess
 
 /plugins/*
-!/plugins/MauticAdvancedTemplatesBundle
 !/plugins/MauticCitrixBundle
 !/plugins/MauticClearbitBundle
 !/plugins/MauticCloudStorageBundle
 !/plugins/MauticCrmBundle
 !/plugins/MauticDynamicsBundle
 !/plugins/MauticEmailMarketingBundle
-!/plugins/MauticExtendedFieldBundle
 !/plugins/MauticFBAdsCustomAudiencesBundle
 !/plugins/MauticFocusBundle
 !/plugins/MauticFullContactBundle
@@ -73,7 +72,6 @@
 !/plugins/MauticOutlookBundle
 !/plugins/MauticSocialBundle
 !/plugins/MauticZapierBundle
-!/plugins/ThirdSetMauticTimingBundle
 !/plugins/index.html
 !/plugins/.htaccess
 
@@ -99,3 +97,5 @@
 !/themes/blank-big.png
 
 /translations
+
+/var/composer/*
