@@ -1,7 +1,6 @@
 ErrorDocument 404 /error.html
 ErrorDocument 403 /error.html
 ServerSignature Off
-Redirect 301 /favicon.ico https://static.unikrn.com/img/misc/favicon.ico
 Redirect 302 . /s
 
 <Files *>
