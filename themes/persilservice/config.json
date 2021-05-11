@@ -3,6 +3,8 @@
   "author": "BSolut",
   "authorUrl": "http://www.bsolut.com",
   "features": [
-    "email"
+    "page",
+    "email",
+    "form"
   ]
 }
